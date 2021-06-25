@@ -9,3 +9,76 @@
     display: table;
     clear: both;
 }
+
+.container{
+    width: 70%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* ----------------
+    header
+    --------------- */
+
+header{
+    background-color: #e579e6;
+    height: 100px;
+    margin: 1rem 0;
+}
+
+
+/* ----------------
+    main
+    --------------- */
+
+main section{
+    margin: 1rem 0;
+}
+
+/* ------------- first section ------------- */
+main .first_section{
+    height: 500px;
+    background-color: #e1d67a;
+}
+
+/* ------------- second section ------------- */
+
+/* section head */
+main .second_section{
+    background-color: blue;
+}
+
+/* layout colums content */
+main .second_section div{
+    background-color: #abcfe7;
+}
+
+main .second_section .section_head{
+    height: 100px;
+}
+
+main .second_section .col_left,
+main .second_section .col_right,
+main .second_section .col_center{
+    float: left;
+    height: 500px;
+    width: 25%;
+    margin: 1rem 0;
+}
+
+main .second_section .col_center{
+    width: calc(50% - 2rem);
+    margin: 1rem;
+}
+
+
+/* ----------------
+    footer
+    --------------- */
+
+footer{
+    background-color: violet;
+    height: 80px;
+    margin-bottom: 1rem;
+}
